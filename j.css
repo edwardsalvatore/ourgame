@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-image: url("pi.jpg"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    color: red;
+
+    bottom: : 10px;
+    left: 20px;
+    font-size: 39px;
+
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+
+}
+
+#hiscoreBox{
+    position: absolute;
+    color: red;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+  /* The image used */
+  background-image: url("pii.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 100vmin;
+    height: 100vmin;
+    border: 2px solid white;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{
+  /* The image used */
+  background-image: url("11.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.snake{
+
+  /* The image used */
+  background-image: url("22.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.food{
+   
+
+  /* The image used */
+  background-image: url("33.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+   
+   
